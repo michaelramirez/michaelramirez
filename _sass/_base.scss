@@ -337,3 +337,32 @@ ul.work-filters{
     padding: 5px 0;
   }
 }
+
+.portfolio-bg{
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  .print{
+    background: url(/img/print/vend-gift-cards.jpg);
+  }
+  .motion{
+    background: url(/img/motion/takeon-logo.gif);
+  }
+  .web{
+    background: url(/img/web/sign-in-page.jpg);
+  }
+  .photography{
+    background: url(/img/photography/vic-in-store-1.jpg);
+  }
+  .illustration{
+    background: url(/img/illustration/cat.jpg);
+  }
+  .branding{
+    background: url(/img/branding/healthyeah.jpg);
+  }
+}
